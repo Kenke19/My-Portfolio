@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: rgb(55, 83, 120);
+    padding-left: 60px;
+    padding-right: 40px;
+}
+                    /* HEADER */
+header{
+    
+    display:flex;
+    
+}
+header h1{
+    padding-top: 15px;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+header .links{
+    position: absolute;
+    top: 16px;
+    right: 6%;
+}
+.links a{
+    padding-left: 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.links button{
+    background-color:rgba(41, 95, 148, 0.836);
+    border: 0.5px solid lightseagreen;
+    border-radius: 20px;
+    padding-right: 18px;
+    margin-left: 10px;
+}
+                    /* MAIN CONTENT */
+
+.CONTENT-AREA{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    padding-top:10px;
+}
+.text{
+    text-align: left;
+}
+.text h2{color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; font-weight: bolder;}
+.text p{
+    color: rgba(255, 255, 255, 0.603); 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.buttons{padding-top: 30px;}
+.buttons button {
+    padding: 6px 15px; 
+    background-color: rgb(0, 204, 255); 
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+}
+.buttons button a{
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+.buttons a{color: white; text-decoration: none; font-size: 12px;}
+.CONTENT-AREA img{
+    margin-top: 40px;
+    margin-left: 90px;
+    width: 42%
+}
+                    /* FOOTER */
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    left:0;
+    background-color: white;
+    width: 100%;
+    height: 22%;
+}
+footer .brands{
+    background-color: whitesmoke;
+    width: 100%;
+    line-height: 60px;
+    align-items: center;
+    text-align: center;
+}
+.brands img{margin-left: 4%; margin-top: 1%;}
+.about{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    line-height: 60px;
+}
+.about a{
+    text-decoration: none;
+    color: rgb(55, 83, 120);
+}
+
+                    /* MEDIA QUERIES */
+@media screen and (max-width: 768px){
+    .CONTENT-AREA{
+        padding-top: 80px;
+    }
+    .CONTENT-AREA img{
+        width: 50%
+    }
+}
+@media screen and (max-width: 480px) {
+    .links a{
+        padding-left: 5px;
+        font-size: 8px;
+    }
+    .links button{
+        padding-right: 5px;
+        margin-left: 5px;
+    }
+    header h1{
+        padding-top: 20px;
+        font-size: 80%;
+    }
+    body{
+        padding-left: 40px;
+    }
+    header .links{
+        margin-left: 20px;
+        font-size: 1px;
+    }
+}

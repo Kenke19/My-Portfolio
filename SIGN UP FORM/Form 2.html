@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up-Personal Details</title>
+    <link rel="stylesheet" href="./Form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+        <h2>Preferences or Interests</h2>
+        <label>What topics are you interested in? (Select all that apply)</label> <br>
+        <input type="checkbox" id="product-updates" name="interests" value="Product Updates">
+        <label for="product-updates">Product Updates</label><br>
+
+        <input type="checkbox" id="promotions" name="interests" value="Promotions and Discounts">
+        <label for="promotions">Promotions and Discounts</label><br>
+
+        <input type="checkbox" id="events" name="interests" value="Events and Webinars">
+        <label for="events">Events and Webinars</label><br>
+
+        <input type="checkbox" id="tips-guides" name="interests" value="Tips and Guides">
+        <label for="tips-guides">Tips and Guides</label><br>
+
+        <input type="checkbox" id="community-news" name="interests" value="Community News">
+        <label for="community-news">Community News</label><br>
+
+        <input type="checkbox" id="other-interests" name="interests" value="Other">
+        <label for="other-interests">Other (please specify):</label>
+        <input type='text' name='other_interests' placeholder='Specify other interests'><br> <br>
+
+        <label for="source">How did you hear about us?</label>
+        
+        <select id="source" name="source">
+            <option value="">Select an option</option>
+            <option value="social-media">Social Media</option>
+            <option value="referral">Referral</option>
+            <option value="search-engine">Search Engine</option>
+            <option value="other">Other</option>
+        </select> <br> <br>
+
+        <label>Preferred contact method:</label> <br>
+        <input type="radio" id="contact-email" name="contact_method" value="Email">
+        <label for="contact-email">Email</label><br>
+
+        <input type="radio" id="contact-phone" name="contact_method" value="Phone">
+        <label for="contact-phone">Phone</label><br>
+
+        <input type="radio" id="contact-text" name="contact_method" value="Text">
+        <label for="contact-text">Text</label><br>
+
+        <div class="btn-box">
+            <button type="submit"></button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

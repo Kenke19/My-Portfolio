@@ -1,0 +1,540 @@
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sintony-regular {
+    font-family: "Sintony", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sintony-bold {
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #dfdfdf;
+    color: #868686;
+    font-family: 'Sintony', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Acme', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+.main-content {
+    width: 1000px;
+    margin: 0 auto;
+} */
+
+    /* ---------------------------- HEADER SECTION------------------------- */
+
+    header {
+        text-align: center;
+        width: 100%;
+    }
+
+    .main-title {
+        font-size: 48px;
+        line-height: 40px;
+    }
+
+    .main-title span {
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+
+     /* ---------------------------- NAVIGATION SECTION------------------------- */
+
+     /* .main-nav {
+        background-color: #cdcdcd;
+        width: 100%;
+     }
+
+     .main-nav ul {
+        list-style: none;
+        padding-left: 0;
+        width: 1000px;
+        height: 70px;
+        margin: 0 auto;
+        text-align: left;
+        position: relative;
+        left: -4px;
+     }
+
+     .main-nav ul li {
+        border-left: 4px solid #dfdfdf;
+        float: left;
+        height: 70px;
+        width: 140px;
+        position: relative;
+     }
+
+     .main-nav li a {
+        color: #fff;
+        font-size: 18px;
+        box-sizing: border-box;
+        padding-top: 24px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        position: absolute;
+        width: 140px;
+        height: 70px;
+     } */
+
+
+/* ORANGE BACKGROUND */
+/* .bg-orange { background-color: #f26c4e; }
+.main-nav .bg-orange:hover,
+.btn.bg-orange:hover {
+     background-color: #fd8a70; 
+    } */
+
+/* PURPLE BACKGROUND */
+/* .bg-purple { background-color: #cf6baa; }
+.main-nav .bg-purple:hover { background-color: #e993c9; } */
+
+/* YELLOW BACKGROUND */
+/* .bg-yellow { background-color: #f2c24d; }
+.main-nav .bg-yellow:hover { background-color: #ffd777; } */
+
+/* GREEN BACKGROUND */
+/* .bg-green { background-color: #a3d178; }
+.main-nav .bg-green:hover { background-color: #c4eaa0; }
+.bg-dark-green { background-color: #8ebe5f; } */
+
+
+/* BLUE BACKGROUND */
+/* .bg-blue { background-color: #78ccd0; }
+.main-nav .bg-blue:hover { background-color: #9de4e7; } */
+
+
+ /* ---------------------------- SLIDER SECTION------------------------- */
+.feature-slider{
+    background-color: #fff;
+    position: relative;
+    height: 320px;
+    margin-top: 4px;
+}
+
+.nav-left, .nav-right{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: 131px;
+}
+
+.nav-left{
+    background: url(./slider-left.png) top left no-repeat;
+    left: -10px;
+}
+
+.nav-right{
+    background: url(./slider-right.png) top left no-repeat;
+    right: -10px;
+}
+
+.slider-nav{
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 10px;
+    margin: 0px;
+}
+
+.slider-nav li{
+    background-color: #cdcdcd;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.slider-nav li:active{
+    background-color: #f26c4e;
+}
+
+.slider-nav li a{
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+}
+
+.slide-text{
+    width: 310px;
+    margin: 40px 0 0 90px;
+    float: left;
+}
+
+.slide-text h2{
+    color: #f26c4e;
+    font-family: 'Sintony', Helvetica, Arial,  sans-serif;
+    margin-bottom: 0;
+}
+
+.btn{
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;   
+}
+
+ /* ---------------------------- FEATURE SERVICES SECTION------------------------- */
+
+.feature-services{
+    display: table;
+    cursor:grab
+}
+
+.column-half{
+    display: table-cell;
+    width: 50%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.feature-services .column-half{
+    text-align: center;
+}
+
+.feature-services .column-half p{
+    color: #fff;
+    text-align: left;
+}
+
+.feature-services .column-half h2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.feature-services .column-half p a{
+    font-weight: bold;
+    color: #fff;
+}
+
+.feature-services .column-half p a:hover{
+    color: #e7ffbc;
+}
+.slider-nav .active{background-color: #f26c4e;}
+.bottom{
+    display: table;
+    /* cursor: grab; */
+}
+
+.bottom1{
+    display: table-cell;
+    width: 50%;
+    height: 280px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    background-color: #e7ffbc;
+    
+}
+
+.list{color: #8ebe5f;}
+.sub-list a{
+    color: #78ccd0;
+    text-decoration: none;
+}
+
+.bottom1 input{
+    border:1px solid #f26c4e;
+    margin: 3px;
+    line-height: 28px;
+}
+
+.right h2{
+    font-size: 20px;
+}
+
+.bottom1 button{
+    line-height: 32px;
+    width: 175px;
+    border:1px solid #f26c4e;
+    margin-left: 2px;
+    margin-top: 3px;
+    background-color: rgb(231, 231, 34);
+    color: white;
+    font-size: 12px;
+}
+.bottom1 button:hover{background-color: rgba(231, 231, 34, 0.692);}
+
+
+
+
+
+/* Base styles remain the same until the max-width breakpoint */
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sintony-regular {
+    font-family: "Sintony", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sintony-bold {
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: #dfdfdf;
+    color: #868686;
+    font-family: 'Sintony', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Acme', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+/* ---------------------------- HEADER SECTION------------------------- */
+header {
+    text-align: center;
+    width: 100%;
+}
+
+.main-title {
+    font-size: 48px;
+    line-height: 40px;
+}
+
+.main-title span {
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+/* ---------------------------- NAVIGATION SECTION------------------------- */
+.main-nav {
+    background-color: #cdcdcd;
+    width: 100%;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-nav ul li {
+    border-left: 4px solid #dfdfdf;
+    height: 70px;
+    flex: 1;
+    min-width: 140px;
+    position: relative;
+}
+
+.main-nav li a {
+    color: #fff;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-top: 24px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+}
+
+/* Background colors remain the same */
+.bg-orange { background-color: #f26c4e; }
+.bg-purple { background-color: #cf6baa; }
+.bg-yellow { background-color: #f2c24d; }
+.bg-green { background-color: #a3d178; }
+.bg-blue { background-color: #78ccd0; }
+.bg-dark-green { background-color: #8ebe5f; } 
+
+/* Hover states remain the same */
+.main-nav .bg-orange:hover { background-color: #fd8a70; }
+.main-nav .bg-purple:hover { background-color: #e993c9; }
+.main-nav .bg-yellow:hover { background-color: #ffd777; }
+.main-nav .bg-green:hover { background-color: #c4eaa0; }
+.main-nav .bg-blue:hover { background-color: #9de4e7; } 
+
+/* ---------------------------- SLIDER SECTION------------------------- */
+.feature-slider {
+    background-color: #fff;
+    position: relative;
+    height: auto;
+    min-height: 320px;
+    margin-top: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav-left, .nav-right {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.slide-text {
+    width: 100%;
+    max-width: 310px;
+    margin: 40px auto;
+    float: none;
+}
+
+/* ---------------------------- FEATURE SERVICES SECTION------------------------- */
+.feature-services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-half {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* ---------------------------- BOTTOM SECTION------------------------- */
+.bottom {
+    display: table;
+    background-color: #cfc4c4f6;
+}
+
+.bottom1 {
+    width: 100%;
+    height: auto;
+    min-height: 280px;
+    padding: 20px;
+    box-sizing: border-box;
+} 
+
+/* Media Queries */
+
+/* FOR BIGGER SCREENS */
+@media screen and (min-width: 768px) {
+    .column-half {
+        width: 50%;
+    }
+    
+    .bottom1 {
+        width: 33.3%;
+        display: table;
+    }
+
+    .slide-text {
+        float: left;
+        margin: 40px 0 0 90px;
+    }
+    .bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+   
+
+/* FOR TABLETS */
+@media screen and (max-width: 767px) {
+    .main-title {
+        font-size: 36px;
+        line-height: 30px;
+    }
+
+    .main-title span {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .main-nav ul li {
+        width: 50%;
+        min-width: auto;
+    }
+
+    .nav-left {
+        left: 5px;
+    }
+
+    .nav-right {
+        right: 5px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+    .bottom{
+        display: table;
+    }
+}
+/* FOR MOBILE PHONES */
+@media screen and (max-width: 480px) {
+    .main-nav ul li {
+        width: 100%;
+    }
+
+    .main-title {
+        font-size: 28px;
+        line-height: 24px;
+    }
+
+    .main-title span {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .bottom1 input {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .slide-image{
+        width:300px
+    }
+    .bottom1 button {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
